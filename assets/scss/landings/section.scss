@@ -1,0 +1,2410 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+
+.direccion_footer {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+
+@media (min-width: 320px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap !important;
+    justify-content: flex-start !important;
+
+  }
+}
+
+@media (max-width: 659px) {
+  .navbar-expand-lg {
+
+    height: 49px;
+  }
+}
+
+.navbar-nav {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  width: 1247px !important;
+}
+
+.img-logo {
+  max-width: 180px !important;
+  height: auto;
+}
+
+#img_logo {
+  max-width: 180px !important;
+  width: 100px !important;
+
+}
+
+.body {
+  height: 100vh;
+  width: 100%;
+}
+
+#text_icon p {
+  font-size: 10px;
+}
+
+nav#navbar {
+  width: 100%;
+}
+
+.navbar-dark .navbar-brand {
+  padding-left: 53px;
+  color: black;
+}
+
+div#carousel-no-animation {
+  z-index: 0;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 6vh;
+  height: 10vh;
+}
+
+.ml-auto {
+  margin-right: 13vh;
+}
+
+#img_logoOculto {
+  display: none;
+}
+
+#img_logo {
+  width: 15vh;
+}
+
+#img_informes {
+  width: 2vh;
+  padding-bottom: 2.5vh;
+}
+
+#img_profesor {
+  width: 82vh;
+}
+
+.text_addressed {
+  width: 50%;
+}
+
+#img_lupa {
+  position: relative;
+  bottom: 34vh;
+  width: 37vh;
+  right: 8vh;
+}
+
+#img_strategia {
+  position: relative;
+  bottom: 46vh;
+  width: 55vh;
+}
+
+.bg-info {
+  z-index: 1;
+}
+
+.title_Card {
+  padding-left: 12vh;
+  padding-top: 5vh;
+}
+
+.letter {
+  position: absolute;
+  top: 5.5vh;
+  left: 83vh;
+}
+
+.title_Second {
+  font-size: 10vh;
+  color: #DA1A40;
+}
+
+.content {
+  z-index: 0;
+  top: 0;
+  width: 100%;
+  padding-bottom: 10vh;
+}
+
+.carousel-caption {
+  top: 12vh;
+  color: #DA1A40;
+
+}
+
+.carousel-caption h3 {
+  font-size: 62vh;
+}
+
+.barra {
+  padding-left: 13vh;
+}
+
+.card-body {
+  display: flex;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  border: 0px solid;
+}
+
+.card_couse {
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  border: 0px solid;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  height: 100%;
+  width: 92%;
+}
+
+.card_beneficios {
+  width: 22%;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.beneficio_text.last {
+  bottom: 17vh;
+}
+
+.barra_beneficio.last {
+  bottom: 16vh;
+}
+
+#barra_25 {
+  background-color: #DA1A40;
+  height: 1vh;
+}
+
+#barra_10 {
+  background-color: #DA1A40;
+  height: 1.4vh;
+}
+
+.beneficios {
+  padding-top: 10vh;
+}
+
+.in_text_card {
+  font-size: 3vh;
+}
+
+.beneficio_number {
+  font-size: 35vh;
+  color: #C1BDBD;
+}
+
+.beneficio_title {
+  position: relative;
+  bottom: 26vh;
+  text-align: center;
+  line-height: 6vh;
+}
+
+.dirigido_title {
+  text-align: left;
+}
+
+.nuestro_contenido_title {
+  text-align: left;
+  line-height: 7vh;
+}
+
+.course_title {
+  color: #ffffff;
+  padding-top: 5vh;
+}
+
+.module_title {
+  color: #ffffff;
+  padding-top: 5vh;
+  padding-left: 7vh;
+  line-height: 7vh;
+}
+
+.course_title p {
+  font-size: 11vh;
+  line-height: 11vh;
+}
+
+.beneficio_title p {
+  font-size: 5vh;
+}
+
+.dirigido_title p {
+  font-size: 5vh;
+}
+
+.nuestro_contenido_title p {
+  font-size: 8vh;
+}
+
+.course_subtitle1 {
+  font-size: 3vh !important;
+}
+
+.module_subtitle1 {
+  font-size: 3vh !important;
+  color: #161615;
+}
+
+.module_subtitle2 {
+  font-size: 8vh !important;
+  color: #161615;
+}
+
+.dirigido_text {
+  padding-top: 3vh;
+  font-size: 3vh;
+}
+
+.course_text {
+  padding-top: 5vh;
+  font-size: 3vh;
+  color: #ffff;
+  padding-right: 7vh;
+
+}
+
+.barra_beneficio {
+  padding-right: 25vh;
+  position: relative;
+  bottom: 21vh;
+}
+
+.barra_dirigido {
+  padding-right: 60vh;
+  position: relative;
+  top: 2vh;
+}
+
+.beneficio_text {
+  position: relative;
+  bottom: 22vh;
+}
+
+.content_curso {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 57vh;
+}
+
+.card_dirigido {
+  height: 100%;
+  padding-left: 49px;
+  padding-top: 4vh;
+  width: 78vh;
+  padding-right: 22px;
+}
+
+.card_course {
+  min-height: 78vh;
+  padding-left: 13vh;
+  padding-top: 4vh;
+  width: 100%;
+  background-color: #DA1A40;
+  position: relative;
+  bottom: 51vh;
+}
+
+.card_module {
+  background-color: #DA1A40;
+  height: 42vh;
+  width: 69vh;
+}
+
+.card_module3 {
+  background-color: #161615;
+  height: 42vh;
+  width: 69vh;
+}
+
+.card_module2 {
+  width: 100%;
+  background-color: #E7E7E7;
+  height: 42vh;
+}
+
+.nuestro_contenido {
+  padding-left: 6.5vh;
+  height: 100vh;
+  display: flex;
+
+}
+
+.nuestro_contenido_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.nuestro_contenido_rigth {
+  position: relative;
+  top: 38vh;
+  padding-left: 4vh;
+  width: 100%;
+}
+
+.nuestro_contenido_module1 {
+  padding-top: 5vh;
+  height: 50vh;
+  cursor: pointer;
+}
+
+.nuestro_contenido_module2 {
+  padding-top: 5vh;
+  height: 50vh;
+  cursor: pointer;
+}
+
+.course_subtitle {
+  line-height: 11vh;
+}
+
+.course_subtitle1 {
+  font-size: 15vh
+}
+
+.course_subtitle2 {
+  font-size: 8vh !important;
+}
+
+.content_profesor {
+  width: 50%;
+}
+
+.nuestros_docentes {
+  display: flex;
+  width: 100%;
+  padding-top: 22vh;
+  height: 100vh;
+}
+
+.title_profesor p {
+  font-size: 8vh
+}
+
+.title_profesor {
+  text-align: left;
+  line-height: 8vh;
+  padding-left: 12vh;
+}
+
+.text_profesor {
+  text-align: left;
+  padding-left: 12vh;
+  padding-top: 6vh;
+}
+
+.name_profesor p {
+  line-height: 4vh;
+  font-size: 3vh;
+}
+
+.text_buttons_profesor {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 24vh;
+  bottom: 12vh;
+}
+
+.buttons_text {
+  padding-right: 22vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.name_profesor {
+  position: relative;
+  bottom: 8vh;
+  height: 30vh;
+}
+
+.name_profesor .beneficio_title {
+  position: relative;
+  bottom: 14.6vh;
+  line-height: 6vh;
+  text-align: left;
+  padding-left: 8vh;
+}
+
+.name_profesor .beneficio_number {
+  font-size: 21vh;
+  color: #C1BDBD;
+}
+
+.footer {
+  width: 100%;
+  background-color: #161615;
+  position: absolute;
+  /*height: 4800px; con video antes del footer*/
+  height: 275px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left_footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 13vh;
+}
+
+.rigth_footer {
+  width: 100%;
+}
+
+.direccion_text {
+
+  color: #C1BDBD;
+}
+
+#img_logo_footer {
+  width: 192px;
+}
+
+#img_fb_footer {
+  width: 21px;
+
+}
+
+
+@media (max-width: 650px) {
+  #img_fb_footer {
+    width: 15px;
+
+  }
+
+}
+
+
+.icon_footer {
+  padding-left: 227px;
+}
+
+.direccion_text p {
+  font-size: 15px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.rigth_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-size: 1vh;
+}
+
+h1 {
+  font-size: 73vh;
+  color: #DA1A40;
+}
+
+h2 {
+  margin-bottom: 0rem;
+}
+
+.title {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #35495e;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.botonF1 {
+  width: 8vh;
+  height: 8vh;
+  border-radius: 100%;
+  background: #DA1A40;
+  right: 31vh;
+  bottom: 19vh;
+  position: fixed;
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-size: 5vh;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: .3s;
+  z-index: 10;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10vh;
+  padding-left: 17vh;
+  width: 96%;
+}
+
+.enviar.btn.btn-secondary {
+  display: none;
+}
+
+.modal-footer {
+  display: none;
+}
+
+#enviar {
+  width: 80%;
+  background-color: #161615;
+}
+
+.btn.btn-primary {
+  display: none;
+}
+
+.name p {
+  font-size: 6vh;
+}
+
+.name,
+.apellidos,
+.secundario_01,
+.secundario_02 {
+  padding-bottom: 2vh;
+}
+
+.secundario_01,
+.secundario_02 {
+  display: flex;
+  width: 80%;
+}
+
+.dni {
+  padding-right: 1vh;
+}
+
+input.input_ {
+  width: 80%;
+  height: 6vh;
+  background-color: #e1e6ea;
+}
+
+.input_ {
+  width: 80%;
+  height: 6vh;
+  background-color: #e1e6ea;
+}
+
+.input_sec {
+  width: 50%;
+  height: 6vh;
+  background-color: #e1e6ea;
+}
+
+.input_sec_form {
+  width: 100%;
+  height: 6vh;
+  background-color: #e1e6ea;
+}
+
+.enviar p {
+  font-size: 3vh;
+}
+
+.close {
+  font-size: 3.5rem;
+}
+
+#__BVID__16___BV_modal_header_ {
+  display: none
+}
+
+#__BVID__17___BV_modal_header_ {
+  display: none
+}
+
+.modal-dialog.modal-xl {
+  max-width: 100%;
+  margin: 0px auto;
+}
+
+#__BVID__16 {
+  position: fixed;
+  bottom: 3.7vh;
+  left: 0vh;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  outline: 0;
+}
+
+#__BVID__17 {
+  position: fixed;
+  bottom: 3.7vh;
+  left: 0vh;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  outline: 0;
+}
+
+#__BVID__16___BV_modal_body_ {
+  position: relative;
+  flex: 1 1 auto;
+  height: 100%;
+  padding: 1rem;
+  background-color: #DA1A40
+}
+
+#__BVID__18___BV_modal_body_ {
+  position: relative;
+  flex: 1 1 auto;
+  height: 100%;
+  padding: 1rem;
+  background-color: #161615
+}
+
+#__BVID__17___BV_modal_body_ {
+  position: relative;
+  flex: 1 1 auto;
+  height: 100%;
+  padding: 1rem;
+  background-color: #E7E7E7
+}
+
+#__BVID__18___BV_modal_header_ {
+  display: none
+}
+
+.modal-dialog.modal-xl {
+  max-width: 100%;
+  margin: 0px auto;
+}
+
+#__BVID__18 {
+  position: fixed;
+  bottom: 3.7vh;
+  left: 0vh;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  outline: 0;
+}
+
+#__BVID__18___BV_modal_body_ {
+  position: relative;
+  flex: 1 1 auto;
+  height: 100%;
+  padding: 1rem;
+}
+
+.nuestro_contenido_module3 {
+  height: 34%;
+  width: 100%;
+  cursor: pointer;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 60%;
+    margin: 1.75rem auto;
+  }
+}
+
+.modal-dialog.modal-xl {
+  height: 93%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  height: 86.5vh;
+  padding: 1rem;
+}
+
+.links {
+  padding-top: 15px;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #DA1A40;
+  border-color: #DA1A40;
+}
+
+.btn-outline-secondary {
+  color: white;
+  border-color: #b7bdc1;
+  background-color: #b7bdc1;
+}
+
+.btn-outline-secondary:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #DA1A40;
+  border-color: #DA1A40;
+}
+
+.nuestro_contenido_2 {
+  display: flex;
+}
+
+#__BVID__15 {
+  width: 50%;
+}
+
+.modal {
+  position: fixed;
+  bottom: 3.7vh;
+  left: 25%;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  outline: 0;
+}
+
+@media (max-width: 984px) {
+  .in_text_card {
+    font-size: 2vh;
+  }
+
+  .beneficio_number {
+    font-size: 27vh;
+    color: #C1BDBD;
+  }
+
+  .beneficio_title {
+    position: relative;
+    bottom: 27vh;
+    text-align: center;
+    line-height: 5vh;
+    padding-top: 7vh;
+  }
+
+  .barra_beneficio {
+    padding-right: 27vh;
+    position: relative;
+    bottom: 19vh;
+  }
+
+  .card_beneficios {
+    width: 100%;
+  }
+
+  .card_dirigido {
+    height: 100%;
+    padding-left: 10vh;
+    padding-top: 4vh;
+    width: 66vh;
+  }
+
+  .barra_dirigido {
+    padding-right: 42vh;
+    position: relative;
+    top: 2vh;
+  }
+
+  .course_text {
+    padding-top: 5vh;
+    font-size: 2vh;
+    color: rgba(255, 255, 255, 1);
+    padding-right: 7vh;
+  }
+
+  .name_profesor .beneficio_title {
+    position: relative;
+    bottom: 22vh;
+    line-height: 6vh;
+    text-align: left;
+    padding-left: 8vh;
+  }
+
+  .text_buttons_profesor {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 24vh;
+    bottom: 12vh;
+    font-size: 2vh;
+  }
+
+  .buttons_text {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 0vh;
+  }
+
+  .carousel-caption {
+    top: 4vh;
+  }
+
+  .card_course {
+    height: 66vh;
+    padding-left: 13vh;
+    padding-top: 4vh;
+    width: 100%;
+    background-color: #da1a40;
+    position: relative;
+    bottom: 43vh;
+  }
+
+  .dirigido_text {
+    padding-top: 3vh;
+    font-size: 2vh;
+  }
+
+  #img_profesor {
+    width: 100%;
+    padding-left: 10vh;
+  }
+
+  .modal {
+    position: fixed;
+    bottom: 3.7vh;
+    left: 25%;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    outline: 0;
+  }
+
+  .nuestro_contenido_2 {
+    padding-left: 6.5vh;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+  }
+
+  .nuestro_contenido_3 {
+    height: 37%;
+  }
+
+  .nuestro_contenido_module1 {
+    padding-top: 5vh;
+    height: 26%;
+    z-index: 1;
+  }
+
+  .nuestro_contenido_module2 {
+    padding-top: 5vh;
+    height: 26%;
+    z-index: 3;
+  }
+
+  .nuestro_contenido {
+    padding-left: 6.5vh;
+    height: 100vh;
+    display: flex;
+  }
+
+  .card_module {
+    background-color: #DA1A40;
+    height: 42vh;
+    width: 100%;
+  }
+
+  .nuestro_contenido_2 {
+    padding-left: 6.5vh;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+  }
+
+  .nuestro_contenido_left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nuestro_contenido_title {
+    text-align: left;
+    line-height: 7vh;
+    width: 50%;
+  }
+
+  .nuestro_contenido_module1,
+  .nuestro_contenido_module2 {
+    padding-top: 5vh;
+    height: 45%;
+  }
+
+  .card_module3 {
+    background-color: #161615;
+    height: 42vh;
+    width: 100%;
+  }
+
+  .course_subtitle2 {
+    font-size: 5vh !important;
+  }
+
+  .card_module {
+    background-color: #DA1A40;
+    height: 100%;
+    width: 100%;
+  }
+
+  .card_module3 {
+    background-color: #161615;
+    height: 100%;
+    width: 100%;
+  }
+
+  .nuestro_contenido_module3 {
+    height: 34%;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .module_subtitle2 {
+    font-size: 5vh !important;
+    color: #161615;
+  }
+
+  .card_module2 {
+    width: 100%;
+    background-color: #E7E7E7;
+    height: 100%;
+  }
+
+  .card_module2 .module_title {
+    color: #ffffff;
+    padding-top: 5vh;
+    padding-left: 7vh;
+    line-height: 7vh;
+    padding-right: 10vh;
+  }
+
+  #img_strategia {
+    position: relative;
+    bottom: 35vh;
+    width: 100%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 41vh;
+  }
+
+  #img_profesor {
+    width: 100%;
+    padding-left: 10vh;
+    padding-top: 13vh;
+  }
+}
+
+@media (max-width: 718px) {
+
+  .nuestro_contenido_module1,
+  .nuestro_contenido_module2 {
+    padding-top: 5vh;
+    height: 26%;
+  }
+
+  .nuestro_contenido {
+    padding-left: 6.5vh;
+    height: 100vh;
+    display: flex;
+  }
+
+  .card_module {
+    background-color: #DA1A40;
+    height: 42vh;
+    width: 100%;
+  }
+
+  .nuestro_contenido_2 {
+    padding-left: 6.5vh;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+  }
+
+  .nuestro_contenido_left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nuestro_contenido_title {
+    text-align: left;
+    line-height: 7vh;
+    width: 50%;
+  }
+
+  .nuestro_contenido_module1,
+  .nuestro_contenido_module2 {
+    padding-top: 5vh;
+    height: 45%;
+  }
+
+  .card_module3 {
+    background-color: #161615;
+    height: 42vh;
+    width: 100%;
+  }
+
+  .course_subtitle2 {
+    font-size: 5vh !important;
+  }
+
+  .card_module {
+    background-color: #DA1A40;
+    height: 100%;
+    width: 100%;
+  }
+
+  .card_module3 {
+    background-color: #161615;
+    height: 100%;
+    width: 100%;
+  }
+
+  .nuestro_contenido_module3 {
+    height: 34%;
+    width: 100%;
+  }
+
+  .module_subtitle2 {
+    font-size: 5vh !important;
+    color: #161615;
+  }
+
+  .card_module2 {
+    width: 100%;
+    background-color: #E7E7E7;
+    height: 100%;
+  }
+
+  .card_module2 .module_title {
+    color: #ffffff;
+    padding-top: 5vh;
+    padding-left: 7vh;
+    line-height: 7vh;
+    padding-right: 10vh;
+  }
+
+  #img_strategia {
+    position: relative;
+    bottom: 36.2vh;
+    width: 100%;
+  }
+
+  .card_dirigido {
+    height: 100%;
+    padding-left: 10vh;
+    padding-top: 4vh;
+    width: 94%;
+  }
+
+  .dirigido_title p {
+    font-size: 4vh;
+  }
+
+  .card_dirigido {
+    height: 100%;
+    padding-left: 10vh;
+    padding-top: 4vh;
+    width: 100%;
+  }
+
+  .card_course {
+    height: 100%;
+    padding-left: 13vh;
+    padding-top: 4vh;
+    width: 100%;
+    background-color: #da1a40;
+    position: relative;
+    bottom: 43vh;
+  }
+
+  .text_course {
+    padding-left: 10%;
+  }
+
+  .dirigido_text {
+    padding-top: 3vh;
+    font-size: 1.5vh;
+  }
+
+  .barra_dirigido {
+    padding-right: 71%;
+    position: relative;
+    top: 2vh;
+  }
+
+  .course_title p {
+    font-size: 9vh;
+    line-height: 8vh;
+  }
+
+  .course_text {
+    padding-top: 5vh;
+    font-size: 1.5vh;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .text_buttons_profesor {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 24vh;
+    bottom: 12vh;
+    font-size: 1.5vh;
+  }
+
+  .imagen_profesor {
+    padding-top: 29vh;
+  }
+
+  .beneficio_number {
+    font-size: 21vh;
+    color: #C1BDBD;
+  }
+
+  .beneficio_title {
+    position: relative;
+    bottom: 22.5vh;
+    text-align: center;
+    line-height: 4vh;
+    padding-top: 8vh;
+  }
+
+  .beneficio_text {
+    position: relative;
+    bottom: 22vh;
+    font-size: 2vh;
+  }
+
+  .barra_beneficio {
+    padding-right: 21vh;
+    position: relative;
+    bottom: 19vh;
+  }
+
+  .beneficio_title p {
+    font-size: 3vh;
+  }
+
+  .textPrincipal {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    height: 25vh;
+    align-items: center;
+    padding-left: 6vh;
+    padding-right: 8vh;
+    bottom: 6vh;
+  }
+
+  .title_Card {
+    padding-left: 3vh;
+    padding-top: 5vh;
+  }
+
+  .title_Second {
+    font-size: 7vh;
+    color: #DA1A40;
+  }
+
+  .barra {
+    padding-left: 10vh;
+  }
+
+  .text_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    line-height: 2vh;
+  }
+
+  .text_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    line-height: 2vh;
+  }
+
+  .carousel-caption h3 {
+    font-size: 39vh;
+  }
+
+  .botonF1 {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 100%;
+    background: #DA1A40;
+    right: 16%;
+    bottom: 53%;
+    position: fixed;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 5vh;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: .3s;
+    z-index: 10;
+  }
+
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-left: 5vh;
+    width: 96%;
+  }
+}
+
+
+
+@media (max-width: 520px) {
+
+  .card_dirigido {
+    height: 100%;
+    padding-left: 3vh;
+    padding-top: 4vh;
+    width: 100%;
+  }
+
+  .dirigido_title p {
+    font-size: 3vh;
+  }
+
+  .card_course {
+    height: 100%;
+    padding-left: 3vh;
+    padding-top: 0vh;
+    width: 100%;
+    background-color: #da1a40;
+    position: relative;
+    bottom: 43vh;
+  }
+
+  .course_title p {
+    font-size: 5vh;
+    line-height: 5vh;
+  }
+
+  .text_course {
+    padding-left: 0%;
+    height: 100%;
+    padding-top: 0%;
+    position: relative;
+    top: 25vh;
+  }
+
+  .course_text {
+    padding-top: 2vh;
+    font-size: 1.5vh;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .course_text {
+    padding-top: 1vh;
+    font-size: 1vh;
+    color: rgba(255, 255, 255, 1);
+    padding-right: 0vh;
+  }
+
+  .dirigido_text {
+    padding-top: 3vh;
+    font-size: 1.3vh;
+  }
+
+  .nuestro_contenido {
+    padding-left: 0vh;
+    height: 100vh;
+    display: flex;
+  }
+
+  .nuestro_contenido_2 {
+    padding-left: 0vh;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+  }
+
+  .nuestro_contenido_title p {
+    font-size: 5vh;
+    line-height: 5vh;
+  }
+
+  .nuestro_contenido_title {
+    text-align: left;
+    line-height: 7vh;
+    width: 50%;
+    padding-left: 2vh;
+  }
+
+  .module_title {
+    color: #ffffff;
+    padding-top: 10vh;
+    padding-left: 1vh;
+    line-height: 7vh;
+  }
+
+  .card_module {
+    background-color: #DA1A40;
+    height: 80%;
+    width: 100%;
+  }
+
+  .card_module3 {
+    background-color: #161615;
+    height: 80%;
+    width: 100%;
+  }
+
+  .nuestro_contenido_module1,
+  .nuestro_contenido_module2 {
+    padding-top: 5vh;
+    height: 45%;
+  }
+
+  .course_subtitle1 {
+    font-size: 2vh !important;
+  }
+
+  .course_subtitle2 {
+    font-size: 4vh !important;
+  }
+
+  .nuestro_contenido_module3 {
+    height: 31%;
+    width: 100%;
+  }
+
+  .nuestro_contenido_rigth {
+    position: relative;
+    top: 38vh;
+    padding-left: 2vh;
+    width: 100%;
+  }
+
+  .card_module2 .module_title {
+    color: #ffffff;
+    padding-top: 5vh;
+    padding-left: 1vh;
+    line-height: 7vh;
+    padding-right: 1vh;
+  }
+
+  .module_subtitle2 {
+    font-size: 4vh !important;
+    color: #161615;
+  }
+
+  #img_strategia {
+    position: relative;
+    bottom: 19.2vh;
+    width: 55vh;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    height: 100%;
+    width: 100%;
+  }
+
+  .beneficio_number {
+    font-size: 8vh;
+    color: #C1BDBD;
+  }
+
+  .beneficio_title {
+    position: relative;
+    bottom: 22.5vh;
+    text-align: left;
+    line-height: 2vh;
+    padding-top: 10%;
+    padding-left: 1vh;
+  }
+
+  .beneficio_title p {
+    font-size: 1.5vh;
+  }
+
+  .beneficio_text {
+    position: relative;
+    bottom: 74%;
+    font-size: 9px;
+  }
+
+  .card_beneficios {
+    width: 15vh;
+  }
+
+  #barra_10 {
+    background-color: #DA1A40;
+    height: 0.5vh;
+  }
+
+  .barra_beneficio {
+    padding-right: 10vh;
+    position: relative;
+    bottom: 66%;
+  }
+
+  .content_curso {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 39vh;
+  }
+
+  .card_course {
+    height: 89%;
+    padding-left: 3vh;
+    padding-top: 0vh;
+    width: 100%;
+    background-color: #da1a40;
+    position: relative;
+    bottom: 43vh;
+  }
+
+  .title_profesor {
+    text-align: left;
+    line-height: 4vh;
+    padding-left: 0vh;
+  }
+
+  .title_profesor p {
+    font-size: 4vh;
+  }
+
+  .text_profesor {
+    text-align: left;
+    padding-left: 0vh;
+    padding-top: 6vh;
+  }
+
+  .name_profesor .beneficio_title {
+    position: relative;
+    bottom: 26vh;
+    line-height: 1vh;
+    text-align: left;
+    padding-left: 7vh;
+  }
+
+  .name_profesor .beneficio_number {
+    font-size: 18vh;
+    color: #c1bdbd;
+  }
+
+  .beneficio_title p {
+    font-size: 1.5vh;
+    line-height: 2vh;
+  }
+
+  .content_profesor {
+    width: 50%;
+    padding-left: 1vh;
+  }
+
+  .text_buttons_profesor {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 24vh;
+    bottom: 12vh;
+    font-size: 1.5vh;
+  }
+
+  .btn-outline-secondary {
+    color: white;
+    border-color: #b7bdc1;
+    background-color: #b7bdc1;
+    width: 4vh;
+    font-size: 2vh;
+    height: 4vh;
+  }
+
+  .nuestros_docentes {
+    display: flex;
+    width: 100%;
+    padding-top: 5vh;
+    height: 100vh;
+  }
+
+  .name_profesor {
+    position: relative;
+    bottom: 8vh;
+    height: 26vh;
+  }
+
+  .title_Second {
+    font-size: 4vh;
+    color: #da1a40;
+  }
+
+  .barra {
+    padding-left: 6vh;
+  }
+
+  .in_text_card {
+    font-size: 1vh;
+  }
+
+  .navbar-dark .navbar-brand {
+    padding-left: 2vh;
+    color: #000;
+    font-size: 2vh;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.5vh;
+  }
+
+  .carousel-caption h3 {
+    font-size: 15vh;
+  }
+
+  .nuestros_docentes {
+    display: flex;
+    width: 100%;
+    padding-top: 5vh;
+    height: 100vh;
+  }
+}
+
+
+
+
+@media (max-width:1160px) {
+  .in_text_card {
+    font-size: 19px;
+  }
+
+  .beneficio_text {
+    width: 100%;
+  }
+
+  .card_course {
+    padding-bottom: 35px;
+  }
+}
+
+@media (max-width:1160px) {
+  .beneficio_number {
+    font-size: 250px;
+  }
+
+  .barra_beneficio {
+    padding-right: 150px;
+  }
+}
+
+@media (max-width:1160px) {
+  .card_dirigido {
+    height: 100%;
+    padding-left: 44px;
+    padding-top: 4vh;
+    width: 78vh;
+    padding-right: 54px;
+  }
+}
+
+@media (max-width:1100px) {
+  .text_addressed {
+    width: 53%;
+  }
+
+  .beneficio_number {
+    font-size: 227px
+  }
+
+  .beneficio_title p {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+
+@media (max-width:1044px) {
+  .dirigido_text {
+    font-size: 19px;
+    width: 92%;
+  }
+
+  .course_text {
+    font-size: 21px;
+  }
+}
+
+
+@media (max-width:984px) {
+  .card_course {
+    min-height: 66vh;
+    height: inherit;
+  }
+}
+
+@media (max-width:984px) {
+  .beneficio_number {
+    font-size: 216px;
+  }
+
+  .beneficio_title p {
+    font-size: 32px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 54px;
+    padding-right: 0vh;
+    height: 100%;
+    width: 92%;
+  }
+}
+
+
+
+@media (max-width:958px) {
+  .in_text_card {
+    font-size: 16px;
+  }
+
+  .cards {
+    padding-left: 75px;
+  }
+}
+
+
+@media (max-width:936px) {
+
+  .beneficio_text {
+    width: 88%;
+    padding-top: 8%;
+  }
+
+  .dirigido_text {
+    width: 85%;
+  }
+}
+
+
+
+@media (max-width:902px) {
+  .beneficio_number {
+    font-size: 196px;
+  }
+
+  .dirigido_text {
+    font-size: 15px;
+  }
+
+  .course_text {
+    font-size: 19px;
+  }
+
+  .card_course {
+    padding-left: 10vh;
+  }
+
+  .nuestro_contenido_title p {
+    font-size: 40px;
+    line-height: 41px;
+  }
+
+  .module_title {
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+}
+
+
+@media (max-width:893px) {
+
+  .beneficio_title p {
+    font-size: 23px;
+    line-height: 27px;
+  }
+}
+
+
+
+
+@media (max-width:870px) {
+
+  .in_text_card {
+    font-size: 12px;
+  }
+
+  .course_title p {
+    font-size: 53px;
+    line-height: 61px;
+  }
+
+  .barra_beneficio.last {
+    padding-right: 202px;
+  }
+}
+
+
+
+@media (max-width:815px) {
+
+  .beneficio_number {
+    font-size: 182px;
+  }
+
+  .beneficio_text.last {
+    font-size: 12px;
+  }
+
+  .beneficio_text {
+    font-size: 12px;
+  }
+
+  .dirigido_text {
+    width: 66%;
+  }
+
+  .text_buttons_profesor {
+    font-size: 12px;
+  }
+
+  .barra_beneficio {
+    padding-right: 202px;
+  }
+
+  .barra_beneficio.last {
+    padding-right: 202px;
+  }
+
+}
+
+
+
+@media (max-width:785px) {
+
+  .in_text_card {
+    font-size: 10px;
+  }
+
+  .title_Second {
+    font-size: 7vh;
+  }
+
+  .beneficio_number {
+    font-size: 168px;
+  }
+
+  .barra_beneficio {
+    padding-right: 176px;
+  }
+
+  .course_text {
+    font-size: 16px;
+  }
+
+  #img_lupa {
+    width: 31vh;
+  }
+
+  .left_footer {
+    padding-left: 5vh;
+  }
+
+  .logo_footer {
+    margin-left: -20px;
+  }
+}
+
+@media (max-width:710px) {
+
+  .text_addressed {
+    width: 45%;
+  }
+
+  .card_course {
+    padding-left: 8vh;
+  }
+
+  .beneficio_number {
+    font-size: 158px;
+  }
+
+  .nuestro_contenido_title p {
+    font-size: 33px !important;
+  }
+
+  .beneficio_title p {
+    font-size: 20px;
+  }
+
+  .title_profesor p {
+    font-size: 6vh;
+    line-height: 52px;
+
+  }
+}
+
+
+@media (max-width:710px) {
+  .nuestro_contenido_title p {
+
+    font-size: 25px !important;
+    line-height: 29px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 32vh;
+  }
+
+}
+
+
+@media (max-width:690px) {
+  .beneficio_number {
+    font-size: 147px;
+  }
+
+  .dirigido_text {
+    font-size: 12px;
+  }
+
+  .dirigido_text {
+    width: 54%;
+  }
+
+  .course_text {
+    font-size: 13px;
+  }
+
+  .course_title p {
+    font-size: 44px;
+    line-height: 52px;
+  }
+
+  .card_module2 .module_title {
+    color: #ffffff;
+    padding-top: 5vh;
+    padding-left: 4vh;
+    line-height: 2vh;
+    padding-right: 5vh;
+  }
+
+  .barra_beneficio.last {
+    padding-right: 169px;
+  }
+
+  .barra_beneficio {
+    padding-right: 169px;
+  }
+
+  .nuestro_contenido_2 {
+    padding-left: 4.5vh;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+  }
+
+  .content_curso {
+    height: 57vh;
+  }
+
+  .nuestros_docentes {
+    padding-top: 15vh;
+  }
+
+  .name_profesor .beneficio_title {
+    padding-left: 2vh;
+  }
+
+  .text_buttons_profesor {
+    font-size: 12px;
+  }
+
+  .icon_footer {
+    padding-left: 161px;
+  }
+
+
+
+}
+
+@media (max-width:638px) {
+  .beneficio_number {
+    font-size: 135px;
+  }
+
+  .icon_footer {
+    padding-left: 110px;
+  }
+
+  .barra_beneficio {
+    padding-right: 141px;
+  }
+
+  .barra_beneficio.last {
+    padding-right: 141px;
+  }
+}
+
+@media (max-width:638px) {
+  .beneficio_number {
+    font-size: 102px;
+    padding-bottom: 23px;
+  }
+
+  #__BVID__16___BV_modal_body_ .modal-contenido {
+
+    flex-wrap: wrap;
+    font-size: 5vh;
+  }
+
+  #__BVID__17___BV_modal_body_ .modal-contenido {
+
+    flex-wrap: wrap;
+    font-size: 5vh;
+  }
+
+  #__BVID__18___BV_modal_body_ .modal-contenido {
+
+    flex-wrap: wrap;
+    font-size: 5vh;
+  }
+
+  #__BVID__17___BV_modal_body_ .title_module1 {
+    font-size: 8vh;
+  }
+
+  #__BVID__18___BV_modal_body_ .title_module1 {
+    font-size: 8vh;
+  }
+
+  #__BVID__16___BV_modal_body_ .modal-title {
+    height: 20%;
+  }
+
+  #__BVID__16___BV_modal_body_ .title_module1 {
+    line-height: 6vh;
+    font-size: 6vh;
+  }
+}
+
+@media (max-width:601px) {
+
+  .card_dirigido {
+    width: 205%;
+  }
+
+
+}
+
+@media (max-width:539px) {
+  .icon_footer {
+    padding-left: 68px;
+  }
+
+  .direccion_text p {
+    font-size: 13px;
+  }
+
+  .beneficio_text.last {
+    font-size: 10px;
+  }
+
+  .beneficio_text {
+    font-size: 10px;
+  }
+
+}
+
+
+@media (max-width:539px) {
+  .cards {
+    padding-left: 25px;
+  }
+
+  .beneficio_title {
+    bottom: 88%;
+  }
+
+  .beneficio_title p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .card_beneficios {
+    width: 12vh;
+  }
+
+  .title_Second {
+    font-size: 6vh;
+  }
+
+}
+
+@media (max-width:539px) {
+  .in_text_card {
+    font-size: 7px;
+    line-height: 12px;
+  }
+
+  .text_card {
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3em;
+  }
+
+  .card_beneficios {
+    height: 35vh;
+    padding-bottom: 8em;
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .beneficio_number {
+    padding-bottom: 0px;
+  }
+
+  .barra_beneficio {
+    background-color: #da1a40;
+    padding-right: 130px;
+  }
+
+  .Beneficios {
+    margin-top: -67px;
+  }
+
+  .title_Second {
+    font-size: 4vh;
+  }
+
+}
+
+@media (max-width:539px) {
+  .text_addressed {
+    width: 31%;
+  }
+
+  @media (max-width:450px) {
+    #__BVID__15 {
+      width: 100%;
+    }
+
+    .modal {
+      position: fixed;
+      bottom: 3.7vh;
+      left: 0;
+      z-index: 1050;
+      width: 100%;
+      height: 100%;
+      outline: 0;
+    }
+
+    .modal-body {
+      position: relative;
+      flex: 1 1 auto;
+      height: 95vh;
+      padding: 1rem;
+    }
+  }
+}
+
+@media (max-width:414px) {
+  #img_logo {
+    width: 9vh;
+  }
+
+  .content_curso {
+    flex-direction: column-reverse;
+    top: 11vh;
+    height: 100%;
+  }
+
+  .card_course {
+    min-height: 288px;
+    height: inherit;
+  }
+
+  .card_dirigido {
+    width: 323%;
+  }
+
+  .dirigido_text {
+    width: 100%;
+  }
+
+  #img_logo {
+    width: 8vh;
+  }
+
+  .card_course {
+    padding-left: 0vh;
+    position: relative;
+    width: 100%;
+    left: 0vh;
+    padding-left: 5%;
+  }
+
+  .text_course {
+    padding-left: 0%;
+    height: 100%;
+    padding-top: 0%;
+    position: relative;
+    top: 32vh;
+  }
+
+  .course_title p {
+    font-size: 36px;
+    line-height: 34px;
+  }
+
+  .nuestro_contenido {
+    padding-left: 0vh;
+    height: 100vh;
+    display: flex;
+    padding-top: 20vh;
+  }
+
+  .nuestro_contenido_2 {
+    padding-left: 0vh;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nuestro_contenido_title {
+    text-align: left;
+    line-height: 7vh;
+    width: 100%;
+    padding-left: 0vh;
+
+  }
+
+  .contenido_title p {
+    font-size: 25px !important;
+    line-height: 29px;
+    padding-left: 3vh;
+  }
+
+  .card_module {
+    background-color: #DA1A40;
+    height: 56%;
+    width: 100%;
+  }
+
+  .nuestro_contenido_title p {
+    font-size: 42px !important;
+    line-height: 38px;
+
+  }
+
+  #img_logo {
+    width: 8vh !important;
+  }
+
+  .nuestro_contenido_module3 {
+    height: 48%;
+    width: 100%;
+    position: relative;
+    bottom: 90vh;
+  }
+
+  .nuestro_contenido_rigth {
+    position: relative;
+    top: 38vh;
+    padding-left: 0vh;
+    width: 100%;
+  }
+
+  .card_module3 {
+    background-color: #161615;
+    height: 55%;
+    width: 100%;
+  }
+
+  #img_strategia {
+    position: relative;
+    bottom: 38.2vh;
+    width: 55vh;
+  }
+
+  #img_lupa {
+    position: relative;
+    bottom: 28vh;
+    width: 37vh;
+    right: 8vh;
+  }
+
+  .nuestro_contenido_rigth {
+    position: relative;
+    top: -8vh;
+    padding-left: 0vh;
+    width: 100%;
+  }
+
+  .nuestros_docentes {
+    padding-top: 15vh;
+    position: relative;
+    top: 22vh;
+  }
+
+  .carousel-caption h3 {
+    font-size: 11vh;
+  }
+
+  .nuestros_docentes {
+    padding-top: 15vh;
+    position: relative;
+    top: 23vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #img_profesor {
+    width: 100%;
+    padding-left: 0vh;
+    padding-top: 0vh;
+  }
+
+  .content_profesor {
+    width: 100%;
+    padding-left: 1vh;
+  }
+
+  .name_profesor .beneficio_title {
+    position: relative;
+    bottom: 70%;
+    line-height: 1vh;
+    text-align: left;
+    padding-left: 7vh;
+  }
+
+  .beneficio_title p {
+    font-size: 30px;
+    line-height: 27px;
+  }
+
+  .text_buttons_profesor {
+    font-size: 12px;
+    height: 6vh;
+  }
+
+  .buttons_text {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 0vh;
+    position: relative;
+    top: 44vh;
+    z-index: 1;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: #161615;
+    position: absolute;
+    height: 232px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 31vh;
+  }
+
+  .ml-auto {
+    margin-right: 4vh;
+  }
+}
+
+
+@media (max-width:414px) {
+
+  .nuestro_contenido_module3 {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    bottom: 87vh;
+  }
+
+  .beneficio_title p {
+    font-size: 23px;
+    line-height: 23px;
+  }
+
+  .card_beneficios {
+    height: 34%;
+  }
+
+  .module_title {
+    padding-top: 0;
+    min-height: 24vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .icon_footer {
+    padding-left: 0;
+  }
+
+  .direccion_text p {
+    font-size: 1.2vh;
+    line-height: 2vh;
+    margin-left: 12px;
+
+  }
+
+  #img_logo_footer {
+    width: 192px;
+    max-width: 151px;
+  }
+
+
+
+}
